@@ -19,7 +19,7 @@ int main() {
 	while (i == 0) {
 		int rand_num = rand() % 3;
 		computer_choice = choices[rand_num];
-		cout << endl << computer_choice << endl;
+		//cout << endl << computer_choice << endl;
 		cout << "\nchoice rock paper scissor :- ";
 		cin >> player_choice;
 
