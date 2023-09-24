@@ -51,7 +51,7 @@ int main() {
 				computer_point = computer_point + 1;
 			}
 			else {
-				cout << "Tie\n";
+				cout << "Draw\n";
 				cout << "computer choiced " << computer_choice;
 			}
 		}
@@ -67,7 +67,7 @@ int main() {
 				computer_point = computer_point + 1;
 			}
 			else {
-				cout << "Tie\n";
+				cout << "Draw\n";
 				cout << "computer choiced " << computer_choice;
 			}
 		}
@@ -88,6 +88,6 @@ int main() {
 		cout << "\nYou win";
 	}
 	else {
-		cout << "Tie";
+		cout << "Draw";
 	}
 }
